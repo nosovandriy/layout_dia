@@ -1,8 +1,0 @@
-.colors {
-  @each $number, $color in $colors {
-    &--#{$number} {
-      background-color: $color;
-      color: $color;
-    }
-  }
-}
